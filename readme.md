@@ -19,11 +19,15 @@
 9.模块系统：为了让nodejs文件可以相互的调用，nodejs提供的模块系统。主要有两个关键的东西：require(用来引进某一个某块)，module.exports(暴露模块接口)。  (module1.js 和 module2.js)  
 
 
-10 .路由 url模块  文件系统 fs  
+10.路由模块  文件系统 fs  
 
-11.get post方法  
+11.全局对象和全局变量 __filename  ， __dirname，setTimeout(cb, ms)  
 
-12.express框架 是一个简洁而灵活的 node.js Web应用框架, 提供了一系列强大特性帮助你创建各种 Web 应用，和丰富的 HTTP 工具。
-使用 Express 可以快速地搭建一个完整功能的网站。
+12.获取get post的请求，url，ulit模块。get请求直接拿url后的参数。post中的数据是放在消息体中的。  
+
+13.express框架 是一个简洁而灵活的 node.js Web应用框架, 提供了一系列强大特性帮助你创建各种 Web 应用，和丰富的 HTTP 工具。
+使用 Express 可以快速地搭建一个完整功能的网站。  
+
+
 
 
